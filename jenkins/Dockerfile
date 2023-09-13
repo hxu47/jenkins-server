@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:lts
-MAINTAINER cgirabawe@gmail.com
+MAINTAINER huidongxu1222@gmail.com
 USER root
 RUN apt-get update
 RUN apt-get -qy install apt-utils curl wget git tree python3-pip && rm -rf /var/lib/apt/lists/*
